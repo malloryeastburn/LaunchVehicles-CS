@@ -83,5 +83,11 @@
   <ItemGroup>
     <None Include="Resources\Falcon_Heavy.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Falcon_9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SpaceX-Wallpapers.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

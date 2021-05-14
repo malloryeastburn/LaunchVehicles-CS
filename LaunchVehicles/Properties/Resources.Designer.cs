@@ -63,9 +63,29 @@ namespace LaunchVehicles.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Falcon_9 {
+            get {
+                object obj = ResourceManager.GetObject("Falcon_9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Falcon_Heavy {
             get {
                 object obj = ResourceManager.GetObject("Falcon_Heavy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SpaceX_Wallpapers {
+            get {
+                object obj = ResourceManager.GetObject("SpaceX-Wallpapers", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

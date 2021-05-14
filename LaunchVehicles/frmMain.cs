@@ -31,7 +31,18 @@ namespace LaunchVehicles
 
         private void btnLV1_MouseLeave(object sender, EventArgs e)
         {
-            imgLV.Image = null;
+            imgLV.Image = Bitmap.FromFile("C:\\Users\\mallo\\OneDrive\\Desktop\\100DaysofCode\\CS-Projects\\LaunchVehicles\\LaunchVehicles\\Resources\\SpaceX-Wallpapers.jpg");
+        }
+
+        private void btnLV2_MouseEnter(object sender, EventArgs e)
+        {
+            imgLV.Image = Bitmap.FromFile("C:\\Users\\mallo\\OneDrive\\Desktop\\100DaysofCode\\CS-Projects\\LaunchVehicles\\LaunchVehicles\\Resources\\Falcon_9.jpg");
+
+        }
+
+        private void btnLV2_MouseLeave(object sender, EventArgs e)
+        {
+            imgLV.Image = Bitmap.FromFile("C:\\Users\\mallo\\OneDrive\\Desktop\\100DaysofCode\\CS-Projects\\LaunchVehicles\\LaunchVehicles\\Resources\\SpaceX-Wallpapers.jpg");
         }
     }
 }

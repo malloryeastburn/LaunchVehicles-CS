@@ -32,6 +32,7 @@ namespace LaunchVehicles
             this.pnlTopRight = new System.Windows.Forms.Panel();
             this.pnlTopLeft = new System.Windows.Forms.Panel();
             this.pnlLeft = new System.Windows.Forms.Panel();
+            this.btnLV2 = new System.Windows.Forms.Button();
             this.btnLV1 = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.pnlRight = new System.Windows.Forms.Panel();
@@ -66,6 +67,7 @@ namespace LaunchVehicles
             // pnlLeft
             // 
             this.pnlLeft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.pnlLeft.Controls.Add(this.btnLV2);
             this.pnlLeft.Controls.Add(this.btnLV1);
             this.pnlLeft.Controls.Add(this.btnExit);
             this.pnlLeft.Dock = System.Windows.Forms.DockStyle.Left;
@@ -74,6 +76,21 @@ namespace LaunchVehicles
             this.pnlLeft.Name = "pnlLeft";
             this.pnlLeft.Size = new System.Drawing.Size(177, 424);
             this.pnlLeft.TabIndex = 1;
+            // 
+            // btnLV2
+            // 
+            this.btnLV2.FlatAppearance.BorderSize = 0;
+            this.btnLV2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLV2.Location = new System.Drawing.Point(0, 230);
+            this.btnLV2.Margin = new System.Windows.Forms.Padding(6);
+            this.btnLV2.Name = "btnLV2";
+            this.btnLV2.Size = new System.Drawing.Size(177, 42);
+            this.btnLV2.TabIndex = 2;
+            this.btnLV2.Text = "Falcon &9";
+            this.btnLV2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnLV2.UseVisualStyleBackColor = true;
+            this.btnLV2.MouseEnter += new System.EventHandler(this.btnLV2_MouseEnter);
+            this.btnLV2.MouseLeave += new System.EventHandler(this.btnLV2_MouseLeave);
             // 
             // btnLV1
             // 
@@ -118,9 +135,11 @@ namespace LaunchVehicles
             // 
             // imgLV
             // 
+            this.imgLV.Image = global::LaunchVehicles.Properties.Resources.SpaceX_Wallpapers;
             this.imgLV.Location = new System.Drawing.Point(149, 69);
             this.imgLV.Name = "imgLV";
             this.imgLV.Size = new System.Drawing.Size(376, 269);
+            this.imgLV.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgLV.TabIndex = 2;
             this.imgLV.TabStop = false;
             // 
@@ -157,6 +176,7 @@ namespace LaunchVehicles
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnLV1;
         private System.Windows.Forms.PictureBox imgLV;
+        private System.Windows.Forms.Button btnLV2;
     }
 }
 
